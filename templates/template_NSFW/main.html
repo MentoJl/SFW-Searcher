@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>NSFW searcher</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <h1>NSFW/SFW Search</h1>
+    <div class="nsfw-search-container">
+        <select class="title-id">
+            <option value='sfw'>SFW</option>
+            <option value='nsfw'>NSFW</option>
+        </select>
+        <select class="title-name">
+            <option value="waifu">Waifu</option>
+            <option value="neko">Neko</option>
+            <option value="shinobu">Shinobu</option>
+            <option value="megumin">Megumin</option>
+            <option value="cuddle">Cuddle</option>
+            <option value="hug">Hug</option>
+            <option value="awoo">Awoo</option>
+            <option value="kiss">Kiss</option>
+            <option value="lick">Lick</option>
+            <option value="blush">Blush</option>
+            <option value="happy">Happy</option>
+            <option value="cringe">Cringe</option>
+            <option value="poke">Poke</option>
+        </select>
+        <!-- <select>
+            <option></option>
+        </select> -->
+        <!-- <input id="nsfw-id" type="text" placeholder="Input nsfw name"> -->
+        <button class="animated-button" onclick="searchNSFW()">Search</button>
+    </div>
+    <table class="img-container" id="nsfw-container"></table>
+</body>
+</html>
