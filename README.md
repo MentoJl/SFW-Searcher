@@ -1,4 +1,4 @@
-This project the first web-project on learning JS/HTML/CSS, it was made for 1 month and demonstrating result of 1 month of learning.<br>
+<center>This project the first web-project on learning JS/HTML/CSS, it was made for 1 month and demonstrating result of 1 month of learning.<br></center>
 
 
 ![image](https://github.com/MentoJl/SFW-Searcher/assets/80547023/e33e2514-7773-4991-9d34-c5a0b7bbc534)
