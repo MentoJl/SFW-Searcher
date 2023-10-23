@@ -1,5 +1,7 @@
 <div align="center">This project the first web-project while learning JS/HTML/CSS, it was made for 1 month and demonstrating result of 1 month of learning.</div>
 <br>
+Version 0.1 alpha.
+<br>
 
 ![image](https://github.com/MentoJl/SFW-Searcher/assets/80547023/e33e2514-7773-4991-9d34-c5a0b7bbc534)
 ![image](https://github.com/MentoJl/SFW-Searcher/assets/80547023/05127695-6c43-4215-8f78-a6c6c64150fe)
